@@ -24,6 +24,6 @@ public class CalculatorServiceTest {
     @Test
     public void shouldMultiThreeNumbers()
     {
-        assertEquals("2 + 3 + 1 should be 6", 6, new CalculatorService().multi(Arrays.asList(2, 3, 1)));
+        assertEquals("2 * 3 * 1 should be 6", 6, new CalculatorService().multi(Arrays.asList(2, 3, 1)));
     }
 }

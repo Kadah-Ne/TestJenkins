@@ -25,6 +25,6 @@ public final class CalculatorService {
      * @return the result of a * b
      */
     public int multi(Collection<Integer> numbers) {
-        return numbers.stream().reduce(0, CalculatorAlgo::multi);
+        return numbers.stream().reduce(1, CalculatorAlgo::multi);
     }
 }
