@@ -17,7 +17,7 @@ public class App {
         return new CalculatorService().add(Arrays.asList(Integer.valueOf(args[0]), Integer.valueOf(args[1])));
     }
 
-    public static int multi(String[] args)
+    public static int multiply(String[] args)
     {
         return new CalculatorService().multi(Arrays.asList(Integer.valueOf(args[0]), Integer.valueOf(args[1])));
     }
