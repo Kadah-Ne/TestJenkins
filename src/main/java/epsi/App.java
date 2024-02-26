@@ -9,8 +9,9 @@ import java.util.Arrays;
 public class App {
     public static void main( String[] args )
     {
-        int result = compute(args);
-        System.out.println("The result is : " + result);
+        int resultAdd = compute(args);
+        int resultMulti = multiply(args);
+        System.out.println("The result is : " + resultAdd +"\n The multiplication is : "+ resultMulti);
     }
 
     public static int compute( String[] args) {
