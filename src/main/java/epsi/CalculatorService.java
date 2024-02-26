@@ -18,6 +18,12 @@ public final class CalculatorService {
         return numbers.stream().reduce(0, CalculatorAlgo::add);
     }
 
+    /**
+     * Adds two numbers.
+     * @param a the first number
+     * @param b the second number
+     * @return the result of a * b
+     */
     public int multi(Collection<Integer> numbers) {
         return numbers.stream().reduce(0, CalculatorAlgo::multi);
     }
