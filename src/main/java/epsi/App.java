@@ -16,4 +16,9 @@ public class App {
     public static int compute( String[] args) {
         return new CalculatorService().add(Arrays.asList(Integer.valueOf(args[0]), Integer.valueOf(args[1])));
     }
+
+    public static int multi(String[] args)
+    {
+        return 0;
+    }
 }
